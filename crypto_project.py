@@ -21,8 +21,6 @@ required.add_argument(
     default=Path(__file__).absolute().parent / "data",
     help="Path to the data directory",
 )
-#parser.add_argument('--ecb' , action='store_true')
-#parser.add_argument('--cbc', action='store_true', help="use CBC mode of encryption instead of default ECB")
 
 p = parser.parse_args()
 
