@@ -15,8 +15,6 @@ optional = parser.add_argument_group('optional arguments')
 
 required_arg = optional.add_argument('--cbc',action='store_true', help="use CBC mode of encryption instead of default ECB")
 
-
-
 required.add_argument(
     "--input",
     type=Path,
@@ -65,6 +63,3 @@ if p.cbc:
 elif enc_mode == AES.MODE_ECB:
     cv2.imwrite("final_result_ecb.bmp", final_image)
     print("Encryption process has been finished, end image path: " + os.path.abspath(os.getcwd()) + "/final_result_ecb.bmp" )
-
-
-
