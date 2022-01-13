@@ -14,8 +14,8 @@ numpy==1.20.3
 Tool can be installed using git.
 
 ```bash
-git clone <link after>
-cd <app>
+git clone https://github.com/cornwebfox/ecb-cbc_implementation
+cd ecb-cbc_implementation
 pip3 install -r requirements.txt
 ```
 
