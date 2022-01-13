@@ -11,7 +11,7 @@ numpy==1.20.3
 
 ## Installation
 
-Tool can be installed using git.
+Tool can be installed using git
 
 ```bash
 git clone https://github.com/cornwebfox/ecb-cbc_implementation
