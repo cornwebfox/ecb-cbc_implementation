@@ -19,7 +19,7 @@ required.add_argument(
     "--input",
     type=Path,
     default=Path(__file__).absolute().parent / "data",
-    help="Path to the data directory",
+    help="Path to the image",
 )
 
 p = parser.parse_args()
