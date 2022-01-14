@@ -28,3 +28,6 @@ Run AES-ECB encryption of image
 ```bash
 python3 crypto_project.py --cbc --input IMAGE DIRECTORY
 ```
+## Appreciation
+
+Inspired by [Do-It-Yourself ECB Penguin](https://github.com/pakesson/diy-ecb-penguin) as well as with the help of [this](https://qr.ae/pG3g3j) tutorial on quora.
